@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+.bg-primary{
+    background: #0f172a;
+}
+
+.bg-secondary{
+    background: #1e293b;
+}
+
+.bg-accent{
+    background: #8d3ca9;
+}
+
+.text-accent{
+    color: #8d3ca9;
+}
+
+nav li a{
+    @apply px-4 text-lg py-52 font-bold;
+}
+
+nav li a:hover{
+    @apply text-purple-800
+}
+
+.mobile-nav{
+    @apply block md:hidden fixed w-full py-2 right-0 top-[60px] h-full bg-gray-900 duration-500
+}
+
+.logo{
+    font-family: 'Borel', cursive;
+}
+
+.hero-info h1{
+    font-family: 'Borel', cursive;
+    line-height: 1.5;
+}
+
+.coding-profile img{
+    height: 13rem;
+    width: 18rem;
+    padding: 20px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: white;
+  }
+  
+  ::selection {
+    color: black;
+    background: white;
+  }
