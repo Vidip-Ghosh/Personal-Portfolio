@@ -2,6 +2,7 @@ import Ideator from '../assets/Ideator.png';
 import GitCollabX from '../assets/GitCollabX.png';
 import FloodGuardia from '../assets/FloodGuardia.png';
 import QRCodeGenerator from '../assets/QRCodeGenerator.png';
+import PersonalPortfolio from '../assets/PersonalPortfolio.png'
 import { AiFillGithub } from 'react-icons/ai';
 
 const projectList = [
@@ -25,6 +26,11 @@ const projectList = [
     description: 'QRCodeGenerator - Generate QR codes for URLs and text.',
     link: 'https://github.com/Vidip-Ghosh/QR-Code-Generator',
   },
+  {
+    img: PersonalPortfolio,
+    description: 'Personal Portfolio',
+    link: 'https://github.com/Vidip-Ghosh/Personal-Portfolio',
+  }
 ];
 
 const Projects = () => {
@@ -47,7 +53,7 @@ const Projects = () => {
           {projectList.map((item, idx) => (
             <div key={idx} className="flex flex-col items-center">
               <img src={item.img} alt={`Project ${idx + 1}`} className="mb-4 rounded-md" />
-              <p className="text-center text-white">{item.description}</p>
+              <p className="text-center text-white font-bold text-lg">{item.description}</p>
               <a href={item.link} target="_blank" rel="noopener noreferrer">
                 <AiFillGithub style={{fontSize:40,color:'white'}} />
               </a>
