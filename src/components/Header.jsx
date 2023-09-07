@@ -1,7 +1,7 @@
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import '../App.css'
 import { useState } from 'react'
-
+import { Link } from 'react-router-dom'
 const Header = () => {
     const [toggle,setToggle] = useState(false);
 
@@ -10,16 +10,16 @@ const Header = () => {
     }
 
   return (
-    <header className='flex justify-between px-5 py-3 bg-primary text-white'>
+    <header className='flex justify-between sticky w-full z-50 px-5 py-3 bg-primary text-white'>
       <a href="/" className='logo text-3xl font-bold text-accent py-3'>Vidip Ghosh</a>
 
       {/* Desktop Navbar */}
       <nav className='hidden md:block'>
         <ul className="flex">
-            <li><a href="/#">About</a></li>
-            <li><a href="/#projects">Projects</a></li>
-            <li><a href="/#blog">Blog</a></li>
-            <li><a href="/#contact">Contact</a></li>
+        <li><Link to="/About">About</Link></li>
+            <li><Link to="/Projects">Projects</Link></li>
+            <li><Link to="/Blog">Blog</Link></li>
+            <li><Link to="/Contacts">Contact</Link></li>
         </ul>
 
         {/* Mobile Navbar */}
@@ -32,10 +32,10 @@ const Header = () => {
       }
       >
         <ul className="flex flex-col border-2">
-            <li><a href="/#">About</a></li>
-            <li><a href="/#projects">Projects</a></li>
-            <li><a href="/#blog">Blog</a></li>
-            <li><a href="/#contact">Contact</a></li>
+            <li><Link to="/About">About</Link></li>
+            <li><Link to="/Projects">Projects</Link></li>
+            <li><Link to="/Blog">Blog</Link></li>
+            <li><Link to="/Contacts">Contact</Link></li>
         </ul>
       </nav>
       {/* Toggle button */}
