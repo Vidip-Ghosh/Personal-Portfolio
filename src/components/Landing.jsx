@@ -8,6 +8,7 @@ const Landing = () => {
   return (
     <div>
       <Header/>
+      <Hero/>
       <About/>
       <Projects/>
       <Achievements/>
