@@ -4,6 +4,8 @@ import Projects from './Projects'
 import Header from './Header'
 import About from './About'
 import Achievements from './Achievements'
+import Footer from './Footer'
+import Hero from "./Hero";
 const Landing = () => {
   return (
     <div>
@@ -13,6 +15,7 @@ const Landing = () => {
       <Projects/>
       <Achievements/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
