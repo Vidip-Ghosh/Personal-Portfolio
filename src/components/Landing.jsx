@@ -1,4 +1,3 @@
-import React from 'react'
 import Contact from './Contact'
 import Projects from './Projects'
 import Header from './Header'

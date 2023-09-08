@@ -10,7 +10,7 @@ const Header = () => {
     }
 
   return (
-    <header className='flex justify-between sticky w-full z-50 px-5 py-3 bg-primary text-white'>
+    <header className='flex justify-between fixed w-full z-50 px-5 py-3 bg-primary text-white'>
       <a href="/" className='logo text-3xl font-bold text-accent py-3'>Vidip Ghosh</a>
 
       {/* Desktop Navbar */}
@@ -18,7 +18,7 @@ const Header = () => {
         <ul className="flex">
         <li><Link to="/About">About</Link></li>
             <li><Link to="/Projects">Projects</Link></li>
-            <li><Link to="/Blog">Blog</Link></li>
+            <li><Link to="/Achievements">Achievements</Link></li>
             <li><Link to="/Contacts">Contact</Link></li>
         </ul>
 
@@ -34,7 +34,7 @@ const Header = () => {
         <ul className="flex flex-col border-2">
             <li><Link to="/About">About</Link></li>
             <li><Link to="/Projects">Projects</Link></li>
-            <li><Link to="/Blog">Blog</Link></li>
+            <li><Link to="/Achievements">Achievements</Link></li>
             <li><Link to="/Contacts">Contact</Link></li>
         </ul>
       </nav>
