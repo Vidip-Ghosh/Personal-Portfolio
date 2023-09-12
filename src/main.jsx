@@ -4,6 +4,7 @@ import About from './components/About.jsx'
 import Projects from './components/Projects.jsx'
 import Contact from './components/Contact.jsx'
 import Achievements from './components/Achievements'
+import Education from './components/Education'
 import './index.css'
 import {
   createBrowserRouter,
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
     path:"/Projects",
     element: <Projects/>,
   },
+  {
+    path: '/Education',
+    element: <Education/>
+  }
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

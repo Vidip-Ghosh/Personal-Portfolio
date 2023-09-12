@@ -3,7 +3,11 @@ import GitCollabX from '../assets/GitCollabX.png';
 import FloodGuardia from '../assets/FloodGuardia.png';
 import QRCodeGenerator from '../assets/QRCodeGenerator.png';
 import PersonalPortfolio from '../assets/PersonalPortfolio.png'
+import PlanetCare from '../assets/PlanetCare.png'
 import { AiFillGithub } from 'react-icons/ai';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import {useEffect} from 'react'
 
 const projectList = [
   {
@@ -30,10 +34,18 @@ const projectList = [
     img: PersonalPortfolio,
     description: 'Personal Portfolio',
     link: 'https://github.com/Vidip-Ghosh/Personal-Portfolio',
+  },
+  {
+    img: PlanetCare,
+    description: "Planet Care - Prioritizing sustainability through responsible environmental stewardship.",
+    link: 'https://github.com/Vidip-Ghosh/HackOdisha'
   }
 ];
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     // 4 column project --> More Projects button at end
     <div className="bg-[url('./assets/BG1.png')]">
@@ -52,7 +64,7 @@ const Projects = () => {
         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6">
           {projectList.map((item, idx) => (
             <div key={idx} className="flex flex-col items-center">
-              <img src={item.img} alt={`Project ${idx + 1}`} className="mb-4 rounded-md" />
+              <img src={item.img} alt={`Project ${idx + 1}`} className="mb-4 rounded-md h-56 w-96" />
               <p className="text-center text-white font-bold text-lg">{item.description}</p>
               <a href={item.link} target="_blank" rel="noopener noreferrer">
                 <AiFillGithub style={{fontSize:40,color:'white'}} />

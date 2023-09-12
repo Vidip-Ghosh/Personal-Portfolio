@@ -20,6 +20,7 @@ const Header = () => {
             <li><Link to="/Projects">Projects</Link></li>
             <li><Link to="/Achievements">Achievements</Link></li>
             <li><Link to="/Contacts">Contact</Link></li>
+            <li><Link to="/Education">Education</Link></li>
         </ul>
 
         {/* Mobile Navbar */}
@@ -36,6 +37,7 @@ const Header = () => {
             <li><Link to="/Projects">Projects</Link></li>
             <li><Link to="/Achievements">Achievements</Link></li>
             <li><Link to="/Contacts">Contact</Link></li>
+            <li><Link to="/Education">Education</Link></li>
         </ul>
       </nav>
       {/* Toggle button */}
