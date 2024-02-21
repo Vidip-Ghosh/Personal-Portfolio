@@ -2,6 +2,7 @@ import GSSOC_Certificate from '../assets/GSSOC_Certificate.png';
 import MLHGitCollabX from '../assets/MLHGitCollabX.png';
 import HacktoberfestBadges from '../assets/HacktoberfestBadges.png';
 import GCloudCertificate from '../assets/GCloudCertificate.png';
+import HTF4 from '../assets/HTF4.jpeg';
 import LinkedInSkillBadge from '../assets/LinkedInSkillBadge.png';
 
 const achievementsList=[
@@ -26,7 +27,7 @@ const achievementsList=[
         heading: "30 days of Google Cloud Program",
     },
     {
-      img:GCloudCertificate,
+      img:HTF4,
       heading: "Hack This Fall 2024",
     }
 ]
