@@ -1,7 +1,7 @@
 import Ideator from '../assets/Ideator.png';
 import GitCollabX from '../assets/GitCollabX.png';
 import FloodGuardia from '../assets/FloodGuardia.png';
-import QRCodeGenerator from '../assets/QRCodeGenerator.png';
+import PurrfectPal from '../assets/PurrfectPal.png';
 import PersonalPortfolio from '../assets/PersonalPortfolio.png'
 import PlanetCare from '../assets/PlanetCare.png'
 import { AiFillGithub } from 'react-icons/ai';
@@ -23,12 +23,12 @@ const projectList = [
   {
     img: FloodGuardia,
     description: 'Flood Guardia - Guarding Communities, Defending Against Floods',
-    link: 'https://github.com/PekaVengers/FloodGuardia',
+    link: 'https://github.com/Vidip-Ghosh/FloodGuardia',
   },
   {
-    img: QRCodeGenerator,
-    description: 'QRCodeGenerator - Generate QR codes for URLs and text.',
-    link: 'https://github.com/Vidip-Ghosh/QR-Code-Generator',
+    img: PurrfectPal,
+    description: 'PurrfectPal - An app with web duo which bridges the gap between the pet owners and the people who can temporary adopt their pet.',
+    link: 'https://github.com/Vidip-Ghosh/PurrfectPal'
   },
   {
     img: PersonalPortfolio,
