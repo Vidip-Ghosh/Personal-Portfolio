@@ -2,7 +2,6 @@ import Ideator from '../assets/Ideator.png';
 import GitCollabX from '../assets/GitCollabX.png';
 import FloodGuardia from '../assets/FloodGuardia.png';
 import PurrfectPal from '../assets/PurrfectPal.png';
-import PersonalPortfolio from '../assets/PersonalPortfolio.png'
 import PlanetCare from '../assets/PlanetCare.png'
 import { AiFillGithub } from 'react-icons/ai';
 import AOS from 'aos';
@@ -29,11 +28,6 @@ const projectList = [
     img: PurrfectPal,
     description: 'PurrfectPal - An app with web duo which bridges the gap between the pet owners and the people who can temporary adopt their pet.',
     link: 'https://github.com/Vidip-Ghosh/PurrfectPal'
-  },
-  {
-    img: PersonalPortfolio,
-    description: 'Personal Portfolio',
-    link: 'https://github.com/Vidip-Ghosh/Personal-Portfolio',
   },
   {
     img: PlanetCare,

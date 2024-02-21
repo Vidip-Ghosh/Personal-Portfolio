@@ -3,7 +3,7 @@ import MLHGitCollabX from '../assets/MLHGitCollabX.png';
 import HacktoberfestBadges from '../assets/HacktoberfestBadges.png';
 import GCloudCertificate from '../assets/GCloudCertificate.png';
 import LinkedInSkillBadge from '../assets/LinkedInSkillBadge.png';
-import Leetcode50Days from '../assets/LeetCode_50Days_Badge2022.gif';
+
 const achievementsList=[
     {
         img:GSSOC_Certificate,
@@ -12,10 +12,6 @@ const achievementsList=[
     {
         img:MLHGitCollabX,
         heading: "MLH Hackathon's React vs. Angular HackBattle",
-    },
-    {
-      img: Leetcode50Days,
-      heading: "LeetCode 50 Days Badge(2022)"
     },
     {
         img: HacktoberfestBadges,
@@ -28,6 +24,10 @@ const achievementsList=[
     {
         img:GCloudCertificate,
         heading: "30 days of Google Cloud Program",
+    },
+    {
+      img:GCloudCertificate,
+      heading: "Hack This Fall 2024",
     }
 ]
 
